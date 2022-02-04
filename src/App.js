@@ -13,12 +13,13 @@ const App = () => {
 			<AuthContext.Consumer>
 				{(ctx) => {
 					const { themeState } = ctx;
-					const appClasses = classNames(`App`, {
-						[styles[`App-Theme--${themeState}`]]: themeState,
-					});
+					const appClasses = (themeState) =>
+						classNames(`App`, {
+							[styles[`App-Theme--${themeState}`]]: themeState,
+						});
 
 					return (
-						<div className={appClasses}>
+						<div className={appClasses(themeState)}>
 							<header className={styles[`App-header`]}>
 								<img
 									src={logo}
