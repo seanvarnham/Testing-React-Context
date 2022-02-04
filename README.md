@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[View this project](http://sean-varnham-test-react.herokuapp.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
