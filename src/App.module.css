@@ -1,0 +1,86 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-Theme--light .App-header {
+	background-color: #eeeeee;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+button {
+	appearance: none;
+	background-color: white;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
+	padding: 5px 20px;
+}
+
+.button--login .is-logged-in {
+}
+.button--login .is-logged-out {
+}
+
+.button-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.button-container button:not(:last-of-type) {
+	margin-right: 10px;
+}
+
+/* ------ Theme Styles ----- */
+.App-Theme--light .App-header {
+	background-color: #eeeeee;
+	color: #181818;
+}
+
+.App-Theme--light .App-link {
+	color: #2500c9;
+}
+
+.App-Theme--light .button--login {
+	box-shadow: 0 0 10px -6px #868686;
+}
+
+.App-Theme--light .button--login:hover {
+	box-shadow: 0 0 10px -6px #030303;
+}
