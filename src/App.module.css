@@ -24,7 +24,7 @@
 	color: white;
 }
 
-.App-Theme--light .App-header {
+.theme--light .App-header {
 	background-color: #eeeeee;
 }
 
@@ -68,19 +68,19 @@ button {
 }
 
 /* ------ Theme Styles ----- */
-.App-Theme--light .App-header {
+.theme--light .App-header {
 	background-color: #eeeeee;
 	color: #181818;
 }
 
-.App-Theme--light .App-link {
+.theme--light .App-link {
 	color: #2500c9;
 }
 
-.App-Theme--light .button--login {
+.theme--light .button--login {
 	box-shadow: 0 0 10px -6px #868686;
 }
 
-.App-Theme--light .button--login:hover {
+.theme--light .button--login:hover {
 	box-shadow: 0 0 10px -6px #030303;
 }
